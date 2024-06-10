@@ -1,0 +1,29 @@
+.app_dark_theme {
+  // Main 1
+  --main-1-100: #000000;
+  --main-1-40: #404040;
+
+  // Main 2
+  --main-2-100: #FFFFFF;
+  --main-2-60: #FFFFFF99;
+  --main-2-40: #FFFFFF66;
+  --main-2-20: #FFFFFF33;
+  --main-2-10: #FFFFFF1A;
+
+  // Additional 1
+  --additional-1-100: #3E88F7;
+
+  // Accent 1
+  --accent-1-100: #FFAC3E;
+
+  // Accent 2
+  --accent-2-100: #37B73B;
+
+  // Accent 3
+  --accent-3-100: #FC4A62;
+
+  //Gradients
+  --gradients-bliss: linear-gradient(90deg, #5FF7EF 0%, #804FFF 50%, #0A79FF 100%);
+  --gradients-sunny-orange: linear-gradient(107deg, #F69151 0%, #F9A135 100%);
+  --gradients-money-rain: linear-gradient(270deg, #5547F0 0%, #FF46D6 48.5%, #D0F85F 100%);
+}
