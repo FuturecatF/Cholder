@@ -1,20 +1,23 @@
+@import "../../../mixins";
 @import "reset";
+@import "../../shared/assets/fonts/fonts.scss";
 @import "variables/global";
 @import 'themes/dark';
+
+
 
 #root {
   min-height: 100vh;
 }
 
 body {
-  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Ubuntu",
+  font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Ubuntu",
   "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   color: var(--def-font-color);
-}
-
-.app {
-  display: flex;
-  flex-direction: column;
-  overflow-x: hidden;
-  color: var(--def-font-color);
+  position: relative;
+  margin: 0 auto;
+  min-width: 270px;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }

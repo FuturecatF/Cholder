@@ -1,0 +1,69 @@
+@use 'mixins' as m;
+
+.userCard {
+  position: relative;
+  z-index: 2;
+  border-radius: 18px;
+  background-color: var(--main-1-100);
+  padding: 6px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+
+}
+
+.holderImage {
+  pointer-events: none;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.content {
+  margin-left: 66px;
+}
+
+.contentWrapper {
+
+}
+
+.titleWrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3px;
+}
+
+.title {
+  @include m.font(14, 700, 16);
+  color: var(--main-2-100);
+}
+
+.subtitle {
+  @include m.font(12, 500, 14);
+  color: var(--additional-1-100);
+}
+
+.infoButton {
+  @include m.buttonDefault();
+}
+
+.diamondWrapper {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  width: 32px;
+  height: 32px;
+}
+
+.diamondIcon {
+  width: 32px;
+  height: 32px;
+}
+
+.glowIcon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

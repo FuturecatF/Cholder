@@ -18,7 +18,7 @@
     "jsx": "react-jsx",
     "esModuleInterop": true,
     "types": [
-      "@types/node"
+      "@types/node",
     ],
     "noEmit": true,
     "allowJs": true,

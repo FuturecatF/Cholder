@@ -1,0 +1,13 @@
+@mixin font($size, $weight, $height) {
+  font-size: #{$size}px;
+  font-weight: $weight;
+  line-height: #{$height}px;
+}
+
+@mixin buttonDefault() {
+  outline: none;
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+}
