@@ -1,15 +1,12 @@
 @use 'mixins' as m;
 
 .treasury {
-  background: var(--main-1-100);
-  flex-grow: 1;
-  position: relative;
   padding: 19px 16px 8px;
 }
 
 
 .topRightHighlight {
-  position: absolute;
+  position: fixed;
   top: -269px;
   right: -206px;
   width: 453px;
@@ -22,7 +19,7 @@
 }
 
 .bottomLeftHighlight {
-  position: absolute;
+  position: fixed;
   width: 408px;
   height: 408px;
   left: -223px;
@@ -35,7 +32,7 @@
 }
 
 .bottomRightHighlight {
-  position: absolute;
+  position: fixed;
   right: -223px;
   bottom: -277px;
   width: 408px;
@@ -52,4 +49,17 @@
   justify-content: space-between;
   column-gap: 8px;
 
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.tonWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 0;
+  row-gap: 16px;
 }

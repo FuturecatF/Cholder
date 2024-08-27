@@ -1,0 +1,18 @@
+.pageLayout {
+  display: flex;
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+.scrollable {
+  overflow-y: auto;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.wrapper {
+  padding-top: 24px;
+  padding-bottom: 140px;
+}

@@ -17,9 +17,6 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "esModuleInterop": true,
-    "types": [
-      "@types/node",
-    ],
     "noEmit": true,
     "allowJs": true,
     /* Linting */
